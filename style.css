@@ -1,0 +1,59 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Retromark Script', sans-serif;
+    color:#fff
+}
+
+:root {
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/tactile_noise.png);
+}
+
+body {
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/tactile_noise.png);
+}
+
+.link-tree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90xw;
+    margin: 40px auto;
+    gap: 20px;
+}
+
+.link-tree img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.link-tree h1 {
+    font-size: 2.5rem;
+}
+
+.link-tree a {
+    background-color: rgb(44, 44, 44);
+    color: var(--bgcolor);
+    width: 100%;
+    padding: 15px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: solid 2px var(--accentcolor);
+}
+
+.link-tree a:hover {
+    background-color: var(--bgcolor);
+    color: var(--accentcolor);
+
+}
+
+@media (min-width: 1024px) {
+    .link-tree {
+        width: 40vw;
+    }
+}
